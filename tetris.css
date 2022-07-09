@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./tetris/Tetris_logo.webp) no-repeat center center fixed;
+    background-size: cover
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#tetris {
+    background-color:mistyrose;
+    padding: 10px;
+    border: 2px solid red;
+    display: inline-block;
+    height: 670px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom {
+    height: 150px;
+}
+
+.square {
+    width: 48px;
+    height: 48px;
+    border: 1px solid gray;
+}
+
+.square.used {
+    background-color: red;
+}
+
+.square.active {
+    background-color: blue;
+}
+.images{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #BBBBBB;
+    cursor: pointer;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-left{
+    transform: translateY(-50%) rotate(180deg);
+}
+.arrow-buttom{
+    transform: translateY(-50%) rotate(90deg); 
+}
+.arrow img {
+    width: 50%;
+}
+.btn{
+    display: flex;
+    height: 30px;
+    justify-content: space-around;
+     border-radius: 20%;
+     cursor: pointer;
+}
+/* .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  } */
+  
+  /* The Close Button */
+  /* .close { */
+    /* color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  } */
+  
+  /* .close:hover, */
+  /* .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+  /* .paragraph{
+    font-size: 50px;
+  } */
+
